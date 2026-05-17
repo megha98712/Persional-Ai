@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus: Decentralized AI Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Left Static Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <h2>⚡ NEXUS</h2>
+                <p>Pure Client-Side Engine</p>
+            </div>
+            <div class="status-panel">
+                <div class="status-item">
+                    <span class="status-dot online"></span>
+                    <p>Gemini API: Connected</p>
+                </div>
+                <div class="status-item">
+                    <span class="status-dot database"></span>
+                    <p>Local Context: Injected</p>
+                </div>
+            </div>
+            <footer>
+                <p>Engine Version v1.5 • 2026</p>
+            </footer>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="chat-interface">
+            <header class="chat-header">
+                <h1>Matrix Core Intelligence</h1>
+                <p>Processes real-time global engineering queries and personal blueprints instantly.</p>
+            </header>
+
+            <!-- Conversation Display -->
+            <div class="chat-box" id="chatBox">
+                <div class="message ai-message">
+                    Systems operational. I have initialized your personal datasets. Ask me anything, Megha.
+                </div>
+            </div>
+
+            <!-- Execution Panel -->
+            <div class="input-area">
+                <form id="chatForm">
+                    <input type="text" id="userInput" placeholder="Ask anything... (e.g., 'What is Agro Soil AI?' or 'Explain AWS IAM')" autocomplete="off" required>
+                    <button type="submit" id="sendBtn">Execute</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
